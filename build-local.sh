@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t govukpay/pay-logger:local .
+docker build -t govukpay/logger:local .
