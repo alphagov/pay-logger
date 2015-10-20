@@ -3,7 +3,7 @@ FROM ubuntu:15.04
 ENV ELASTICSEARCH_HOST localhost # please override
 
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install -y syslog-ng-mod-elasticsearch syslog-ng-mod-json
+RUN apt-get update && apt-get -y upgrade && apt-get install -y syslog-ng-mod-elasticsearch syslog-ng-mod-json && apt-get -y autoclean
 
 # AWS ES needs https
 RUN sed -i 's/http:/https:/' /usr/share/syslog-ng/include/scl/elasticsearch/es-bridge
