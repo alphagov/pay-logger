@@ -13,4 +13,4 @@ sed -i "s/ELASTICSEARCH_INDEX/${ELASTICSEARCH_INDEX}/" /etc/syslog-ng/syslog-ng.
 # show the config for debugging purposes
 cat /etc/syslog-ng/syslog-ng.conf
 
-syslog-ng --no-caps -Fdv
+syslog-ng --no-caps -F
