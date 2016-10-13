@@ -7,3 +7,5 @@ alpha_release-2.approver=till.wirth@digital.cabinet-office.gov.uk
 alpha_release-2.approve-date=2016-10-12:16:03:50
 
 staging-1.tag=alpha_staging-1-2
+
+staging-1.alpha_staging-1-2.date=2016-10-13:14:51:48
