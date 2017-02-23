@@ -1,6 +1,6 @@
 # pay-logger
 
-I AM A BADGER
+I AM A BADGER FOO BAR
 
 A simple syslog to AWS ES log forwarder.
 
