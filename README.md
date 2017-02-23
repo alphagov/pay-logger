@@ -1,6 +1,6 @@
 # pay-logger
 
-A simple syslog to AWS ES log forwarder.
+A simple syslog to AWS ES log forwarder. FFOOOO
 
 Runs on a docker host and listens for Syslog on port 5514/tcp.
 
