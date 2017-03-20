@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 
 RUN echo "http://nl.alpinelinux.org/alpine/v3.4/main/" >> /etc/apk/repositories;
 
