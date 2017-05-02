@@ -26,7 +26,7 @@ pipeline {
       steps {
         script {
           dockerTag {
-            app = "logger"
+            app = "pay-logger"
           }
         }
       }
