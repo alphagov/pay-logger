@@ -17,7 +17,7 @@ pipeline {
       steps {
         script {
           buildApp{
-            app = "logger"
+            app = "pay-logger"
           }
         }
       }
